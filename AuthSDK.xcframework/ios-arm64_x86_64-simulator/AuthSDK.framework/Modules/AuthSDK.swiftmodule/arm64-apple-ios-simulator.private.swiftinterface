@@ -17,6 +17,7 @@ public struct AuthConfig {
   public var submitButtonText: Swift.String
   public var showUsername: Swift.Bool
   public init()
+  public init(primaryColorHex: Swift.String, backgroundColorHex: Swift.String, textColorHex: Swift.String, submitButtonText: Swift.String, showUsername: Swift.Bool)
 }
 public struct UserData : Swift.Codable {
   public let email: Swift.String
@@ -26,6 +27,9 @@ public struct UserData : Swift.Codable {
   public let lastName: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension SwiftUICore.Color {
+  public init?(hex: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class SecureStorageHelper {
   public static func store(user: AuthSDK.UserData)
