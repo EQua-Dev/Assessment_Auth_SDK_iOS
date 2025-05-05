@@ -331,7 +331,7 @@ class AuthSDK {
 ---
 
 ### 📦 Flutter Demo App
-👉🏽 You can view its implementation [here]([https://github.com/EQua-Dev/AuthSDK_iOS_Demo_App](https://github.com/EQua-Dev/Flutter_AuthSDK_Implementation)) 
+👉🏽 You can view its implementation [here](https://github.com/EQua-Dev/Flutter_AuthSDK_Implementation)
 
 
 ## 🤖 Android Version
